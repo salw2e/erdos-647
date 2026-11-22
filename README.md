@@ -6,7 +6,7 @@ Computer search for [Erdős problem #647](https://www.erdosproblems.com/647): is
 
 where τ(m) is the number of divisors of m?
 
-**There is none below 10^12.** The search before this went to 10^10 ([OEIS A087280](https://oeis.org/A087280)).
+**There is none below 10^12.** This is an independent check of a bound that was already known: the same range was searched in June 2026 ([OEIS A087280](https://oeis.org/A087280)), and [arXiv 2608.17880](https://arxiv.org/abs/2608.17880) goes much further, to about 9.17 × 10^18, with a different method.
 
 It also never comes close. For every n from 121 to 10^12 the max is at least n + 5. Every n where it is at most n + 4 is in [near-misses.txt](near-misses.txt), with the max minus n. The last one is n = 120.
 
